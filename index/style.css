@@ -1,0 +1,56 @@
+:root{
+--color-01: #1C9DD5;
+--color-02: #D9D2D2;
+--color-03: #FFFF9D;
+--color-04: #FFFFFF;
+--font-01: "Inria Sans","Marcelo SC";
+--font-02: "Inter";
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-01);
+}
+
+h1, h2{
+    font-family: var(--font-02);
+}
+
+header{
+    background-color: var(--color-01);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+header ul a{
+    color: var(--color-04);
+    text-decoration: none;
+}
+
+h1{
+    color: var(--color-01)
+    font: 50px;
+    text-align: center
+
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+background-color: var(--color-01);
+}
